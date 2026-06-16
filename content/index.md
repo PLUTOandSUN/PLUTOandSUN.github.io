@@ -1,5 +1,6 @@
 ---
-title: 我的数字花园
+title: Welcome to Quartz
 ---
-# 欢迎来到 PLUTO 的博客
-这里记录了学习笔记和一些随笔。其中，标记为“详”的笔记有重点参考价值。
+
+This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.
