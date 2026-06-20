@@ -1,6 +1,6 @@
 
 > [!info] 课件来源
-> 原始课件：[[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf]]  
+> 原始课件：[[../附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf]]  
 > 本节对应 **Part 2 的第 2 个 PPT：Colour Images**，主题是颜色科学基础、颜色空间、彩色图像表示，以及 PGM/PPM 图像文件格式。
 
 ---

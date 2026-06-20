@@ -1,5 +1,5 @@
 > [!info] 课件来源
-> 原始课件：[[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf]]  
+> 原始课件：[[../附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf]]  
 > 本节是 Part 1 的第 2 个正式课件，主题是 **Image Representation 图像表示**。核心内容包括：数字图像如何由连续图像变成离散矩阵、sampling 采样、quantization 量化、sub-sampling 下采样、pixel interpolation 像素插值。
 
 ---

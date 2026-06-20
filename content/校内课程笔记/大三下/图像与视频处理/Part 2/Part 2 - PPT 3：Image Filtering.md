@@ -1,6 +1,6 @@
 
 > [!info] 课件来源
-> 原始课件：[[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/6 EBU6230_image_filtering.pdf]]  
+> 原始课件：[[../附件/Part 2 - Image Transformation, Colour Images and Image Filtering/6 EBU6230_image_filtering.pdf]]  
 > 本节对应 **Part 2 的第 3 个 PPT：Image Filtering**，主题是图像噪声、图像质量度量、卷积、空间域滤波、平滑与去噪。
 
 ---

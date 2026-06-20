@@ -1,10 +1,10 @@
-﻿---
-title: "Part 3 - PPT 1：Edges-I"
-course: "图像与视频处理"
+---
+title: Part 3 - PPT 1：Edges-I
+course: 图像与视频处理
 part: 3
 ppt: 1
-topic: "Edges-I"
-source: "[[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-1_Edges-I.pdf]]"
+topic: Edges-I
+source: "[[../附件/Part 3 - Edges, Interest points, and Morphology/3-1_Edges-I.pdf]]"
 created: 2026-06-16
 tags:
   - course/image-video-processing
@@ -13,7 +13,7 @@ tags:
 ---
 
 > [!info] 课件来源
-> 原始课件：[[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-1_Edges-I.pdf]]  
+> 原始课件：[[../附件/Part 3 - Edges, Interest points, and Morphology/3-1_Edges-I.pdf]]  
 > 本节对应 **Part 3 的第 1 个 PPT：Edges-I**。主题是图像分割中的边缘检测，重点包括 **gradient 一阶导数边缘检测、Roberts/Prewitt/Sobel 模板、Laplacian 二阶导数、zero crossing、unsharp masking、LoG / Marr-Hildreth**。
 
 ---
@@ -359,10 +359,10 @@ $$
 
 PPT 的 flow diagram 中给了两种方案：
 
-| 方案 | 公式 | 特点 |
-|---|---|---|
-| Solution A | $\sqrt{G_x^2+G_y^2}$ | 更接近欧氏长度，但计算稍复杂 |
-| Solution B | $|G_x|+|G_y|$ | 更简单，PPT 中标为 preferred |
+| 方案         | 公式                   | 特点             |     |     |     |                       |
+| ---------- | -------------------- | -------------- | --- | --- | --- | --------------------- |
+| Solution A | $\sqrt{G_x^2+G_y^2}$ | 更接近欧氏长度，但计算稍复杂 |     |     |     |                       |
+| Solution B | $                    | G_x            | +   | G_y | $   | 更简单，PPT 中标为 preferred |
 
 ### 7.3 梯度方向 direction
 

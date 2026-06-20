@@ -30,6 +30,16 @@ created: 2026-06-15
 | Q3 | 25 | 噪声音频中的目标语音提取、ICA 源分离 |
 | Q4 | 25 | WAV/MP3 文件大小、FLAC residual 的 Huffman 编码 |
 
+## 课程笔记速链（Markdown）
+
+- **Block 1：声波、听觉、数字化**：[[课程笔记/音频处理/Block 1/Block 1 - PPT 2：Sound Waves|Sound Waves]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 3：Sound Perception|Sound Perception]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound|Digitisation of Sound]]。
+- **Block 2：MIDI、合成、语音**：[[课程笔记/音频处理/Block 2/Block 2 - PPT 1：MIDI and Sound Synthesis|MIDI and Sound Synthesis]]；[[课程笔记/音频处理/Block 2/Block 2 - PPT 2：Music and Speech|Music and Speech]]。
+- **Block 3：压缩、PCA/ICA**：[[课程笔记/音频处理/Block 3/Block 3 - PPT 1：Compression and Decompression|Compression and Decompression]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 2：PCA and ICA|PCA and ICA]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 3：Audio Quality, Noise, and Digital Filtering|Audio Quality / Filtering]]。
+- **Block 4：应用音频处理、评价、ML、取证**：[[课程笔记/音频处理/Block 4/Block 4 - PPT 1：Audio Quality, Noise, and Digital Filtering II|Audio Quality / Filtering II]]；[[课程笔记/音频处理/Block 4/Block 4 - PPT 2：Real-Time Audio Processing, Machine Learning, Ethics and Forensics|Real-Time / ML / Ethics / Forensics]]。
+
+> [!tip] 用法
+> 每个大题/小题的“相关考点”下已补充 `课程笔记：...`，用于从往年题回跳到对应 Block note。
+
 ---
 
 # Question 1
@@ -120,6 +130,8 @@ $$
 弦变长后，频率降低，因此音高会下降。
 
 ### 相关考点
+
+- 课程笔记：[[课程笔记/音频处理/Block 1/Block 1 - PPT 2：Sound Waves#6. 单频波的关键属性|Wavelength / period / frequency]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 2：Sound Waves#9. Resonance and harmonics 共振与谐波|Fundamental frequency / harmonics]]。
 
 - 两端固定弦的驻波：基频对应半个波长。
 - 基频公式：
@@ -248,6 +260,8 @@ Magnitude
 如果画双边频谱，也应在 $+500$ Hz 和 $-500$ Hz 处标出对应分量。
 
 ### 相关考点
+
+- 课程笔记：[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound#2. Sampling：采样|Sampling]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound#3. Nyquist theorem：奈奎斯特定理|Nyquist theorem]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound#4. Aliasing：混叠|Aliasing]]。
 
 - Sampling rate：每秒采样次数。
 - Nyquist frequency：
@@ -418,7 +432,10 @@ $$
 
 Eq. 2 是理想均匀量化器对满幅正弦信号的经典 SQNR 公式。它使用的是信号和量化噪声的 **RMS power / average power** 模型，而不是简单用最大量化误差作分母。量化噪声通常假设在 $-\Delta/2$ 到 $+\Delta/2$ 之间均匀分布，其 RMS 值与最大误差不同；满幅正弦信号的 RMS 值也与峰值不同。把这些常数项合并到 dB 公式中，就得到额外的 $1.76\ \text{dB}$。
 
+The quantisation error magnitude is distributed between 0 and half of the interval.
 ### 相关考点
+
+- 课程笔记：[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound#5. Quantisation：量化|Quantisation]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound#6. Quantisation error and quantisation noise：量化误差与量化噪声|Quantisation noise]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound#7. SQNR 与动态范围|SQNR / dynamic range]]。
 
 - Bit depth 决定量化级数：$2^n$。
 - 量化间隔：
@@ -602,6 +619,8 @@ SPL / dB
 
 ### 相关考点
 
+- 课程笔记：[[课程笔记/音频处理/Block 1/Block 1 - PPT 3：Sound Perception#9. Critical bands：临界频带|Critical bands]]；[[课程笔记/音频处理/Block 1/Block 1 - PPT 3：Sound Perception#10. Frequency masking：频率掩蔽|Frequency masking]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 1：Compression and Decompression#8.3 Psychoacoustic modelling|Psychoacoustic modelling]]。
+
 - Psychoacoustics：人耳感知不是线性的。
 - Critical band：内耳把频率分成若干临界频带，低频临界带窄，高频临界带宽。
 - Frequency masking：强声音会提高邻近频率的听阈，使弱声音听不见。
@@ -718,6 +737,8 @@ $$
 
 ### 相关考点
 
+- 课程笔记：[[课程笔记/音频处理/Block 2/Block 2 - PPT 1：MIDI and Sound Synthesis#5. MIDI message 的基本结构|MIDI message structure]]；[[课程笔记/音频处理/Block 2/Block 2 - PPT 1：MIDI and Sound Synthesis#10. Channel Messages|Channel messages / Note On]]。
+
 - MIDI 不是音频波形，而是控制事件。
 - Note-On message：告诉合成器在某通道开始播放某个音符。
 - Status byte 高 nibble 表示命令，低 nibble 表示通道。
@@ -812,6 +833,8 @@ Amplitude
 
 ### 相关考点
 
+- 课程笔记：[[课程笔记/音频处理/Block 2/Block 2 - PPT 1：MIDI and Sound Synthesis#19. ADSR envelope：音量包络|ADSR envelope]]；[[课程笔记/音频处理/Block 2/Block 2 - PPT 1：MIDI and Sound Synthesis#23. 合成器的基本模块|Synthesiser architecture]]。
+
 - ADSR envelope：Attack, Decay, Sustain, Release。
 - Attack：按键后从 0 到最大幅度的时间。
 - Decay：从最大幅度下降到 sustain level 的时间。
@@ -863,6 +886,8 @@ Speaker verification 和 speaker identification 都属于 **speaker recognition*
 - **Identification**：从候选人集合中找出最可能是谁。
 
 ### 相关考点
+
+- 课程笔记：[[课程笔记/音频处理/Block 2/Block 2 - PPT 2：Music and Speech#24. Speaker Verification and Identification|Speaker verification / identification]]；[[课程笔记/音频处理/Block 4/Block 4 - PPT 2：Real-Time Audio Processing, Machine Learning, Ethics and Forensics#39. Speaker recognition|Speaker recognition in forensics]]。
 
 - Speaker recognition = verification + identification。
 - Enrolment 阶段与 recognition 阶段。
@@ -960,6 +985,8 @@ $$
 $$
 
 ### 相关考点
+
+- 课程笔记：[[课程笔记/音频处理/Block 3/Block 3 - PPT 2：PCA and ICA#9. Cocktail Party Problem|Cocktail party problem]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 2：PCA and ICA#10. Blind Source Separation（BSS）|Blind source separation]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 2：PCA and ICA#12. ICA 的基本思想|ICA]]；[[课程笔记/音频处理/Block 4/Block 4 - PPT 1：Audio Quality, Noise, and Digital Filtering II#25. 不同任务应该选什么指标？|Speech/source-separation metrics]]。
 
 - Cocktail party problem。
 - Blind source separation。
@@ -1233,6 +1260,8 @@ Audio input
 
 ### 相关考点
 
+- 课程笔记：[[课程笔记/音频处理/Block 3/Block 3 - PPT 2：PCA and ICA#13. Statistical Independence|Statistical independence]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 2：PCA and ICA#14. ICA 的 ambiguity 不确定性|ICA ambiguity]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 2：PCA and ICA#17. 源数量未知时怎么办？|Unknown number of sources]]；[[课程笔记/音频处理/Block 4/Block 4 - PPT 1：Audio Quality, Noise, and Digital Filtering II#8. Filtering in Complex Audio Processing：滤波与 PCA/ICA|Filtering with PCA/ICA]]。
+
 - ICA 的假设：independence、linear mixture、non-Gaussianity。
 - Whitening 和 PCA preprocessing。
 - Components 数量选择。
@@ -1370,6 +1399,8 @@ $$
 即 MP3 文件约为原始 PCM WAV 的 $1/12$。
 
 ### 相关考点
+
+- 课程笔记：[[课程笔记/音频处理/Block 1/Block 1 - PPT 4：Digitisation of Sound#9. Audio quality vs data rate：音质与数据率|Audio bitrate / file size]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 1：Compression and Decompression#8. 有损压缩：以 MP3 为例|MP3 lossy compression]]。
 
 - PCM audio bitrate：
 
@@ -1623,6 +1654,8 @@ $$
 | 2 | right-right-right-right | `1111` |
 
 ### 相关考点
+
+- 课程笔记：[[课程笔记/音频处理/Block 3/Block 3 - PPT 1：Compression and Decompression#6. 无损压缩流水线|Predictive coding / residuals]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 1：Compression and Decompression#7. Entropy coding：把常见符号编码得更短|Entropy coding]]；[[课程笔记/音频处理/Block 3/Block 3 - PPT 1：Compression and Decompression#7.1 Huffman coding（重点：怎么建树、怎么算 bit）|Huffman coding]]。
 
 - Lossless compression：压缩后可完全恢复原始数据。
 - FLAC：常用预测编码产生 residual，再对 residual 做 entropy coding。

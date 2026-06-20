@@ -1,5 +1,5 @@
 > [!info] 课件来源
-> 原始课件：[[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/1 EBU6230_L1_introduction_to_image_processing.pdf]]  
+> 原始课件：[[../附件/Part 1 - Introduction, Image Representation, Histograms/1 EBU6230_L1_introduction_to_image_processing.pdf]]  
 > 本笔记按 **Lecture 1: Introduction to Image Processing** 整理。Part 1 文件夹中的 `0 EBU6230_module_intro.pdf` 更偏模块说明，本节按正式第 1 讲处理。
 
 ---

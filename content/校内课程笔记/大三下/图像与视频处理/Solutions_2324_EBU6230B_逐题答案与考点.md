@@ -7,31 +7,42 @@ tags:
   - 考点整理
 aliases:
   - EBU6230 Solutions B 2023-24 逐题整理
-source: "[[课程笔记/图像与视频处理/附件/Solutions_2324_EBU6230B_.pdf]]"
+source: "[[附件/Solutions_2324_EBU6230B_.pdf]]"
 created: 2026-06-15
 ---
 
 # EBU6230 Paper B 2023/24 逐题答案与考点
 
 > [!info] 使用说明
-> 本笔记根据 [[课程笔记/图像与视频处理/附件/Solutions_2324_EBU6230B_.pdf|Solutions_2324_EBU6230B_.pdf]] 整理。每一小题都包含：**原题**、**参考答案**、**相关考点**、**课程内容关联**和**易错提醒**。答案以 PDF 标答为主，并补充考试时可写出的解释。
+> 本笔记根据 [[附件/Solutions_2324_EBU6230B_.pdf|Solutions_2324_EBU6230B_.pdf]] 整理。每一小题都包含：**原题**、**参考答案**、**相关考点**、**课程内容关联**和**易错提醒**。答案以 PDF 标答为主，并补充考试时可写出的解释。
 
 ## 课程资料对应关系
 
 - Part 1：图像表示、采样、量化、直方图
-  - [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/1 EBU6230_L1_introduction_to_image_processing.pdf|L1 Introduction to Image Processing]]
-  - [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]
-  - [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]
+  - [[附件/Part 1 - Introduction, Image Representation, Histograms/1 EBU6230_L1_introduction_to_image_processing.pdf|L1 Introduction to Image Processing]]
+  - [[附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]
+  - [[附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]
 - Part 2：图像变换、颜色图像、滤波
-  - [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]
-  - [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]
-  - [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/6 EBU6230_image_filtering.pdf|Image Filtering]]
+  - [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]
+  - [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]
+  - [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/6 EBU6230_image_filtering.pdf|Image Filtering]]
 - Part 3：边缘、兴趣点、形态学
-  - [[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-3_Interest points.pdf|Interest Points]]
-  - [[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]
+  - [[附件/Part 3 - Edges, Interest points, and Morphology/3-3_Interest points.pdf|Interest Points]]
+  - [[附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]
 - Part 4：压缩、序列、MPEG-7
-  - [[课程笔记/图像与视频处理/附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-1_Image Compression_updated.pdf|Image Compression / JPEG2000]]
-  - [[课程笔记/图像与视频处理/附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-2_Sequences_updated.pdf|Image Sequences / Motion Estimation]]
+  - [[附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-1_Image Compression_updated.pdf|Image Compression / JPEG2000]]
+  - [[附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-2_Sequences_updated.pdf|Image Sequences / Motion Estimation]]
+
+## 课程笔记速链（Markdown）
+
+- **Part 1：图像表示、采样/量化、直方图**：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 1：Introduction to Image Processing|Introduction]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation|Image Representation]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 3：Image Histograms|Image Histograms]]。
+- **Part 2：图像变换、颜色、滤波**：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation|Image Transformation]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images|Colour Images]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 3：Image Filtering|Image Filtering]]。
+- **Part 3：边缘、兴趣点、形态学**：[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 1：Edges-I|Edges-I]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 2：Edges-II|Edges-II]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 3：Interest points|Interest Points]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 4：Morphology|Morphology]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - Tutorial Week 3|Tutorial Week 3]]。
+- **Part 4：JPEG2000、运动估计、MPEG-7**：[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 1：Image Compression|Image Compression / JPEG2000]]；[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 2：Image Sequences|Image Sequences]]；[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 3：MPEG-7|MPEG-7]]。
+
+> [!tip] 用法
+> 逐题下方的“课程内容关联”已补充 `课程笔记：...` 链接；复习时可以从题目直接跳回对应 lecture note 或关键 heading。
+
 
 ## 试卷结构总览
 
@@ -81,10 +92,12 @@ created: 2026-06-15
 
 ### 课程内容关联
 
-- False colour：[[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/1 EBU6230_L1_introduction_to_image_processing.pdf|L1]] false colour medical example；[[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2]] LUT / false colour。
-- Dithering：[[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2]] Dithering and halftoning。
-- Logarithmic brightness：[[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2]] Quantization methods。
-- Median filter：[[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/6 EBU6230_image_filtering.pdf|Image Filtering]] median filter。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 1：Introduction to Image Processing#13. False colour images：假彩色图像|False colour images]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#21. Dithering and halftoning|Dithering / halftoning]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#22. Quantization methods：量化方法|Logarithmic quantization]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 3：Image Filtering#31. Median filter：中值滤波|Median filter]]。
+
+- False colour：[[附件/Part 1 - Introduction, Image Representation, Histograms/1 EBU6230_L1_introduction_to_image_processing.pdf|L1]] false colour medical example；[[附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2]] LUT / false colour。
+- Dithering：[[附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2]] Dithering and halftoning。
+- Logarithmic brightness：[[附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2]] Quantization methods。
+- Median filter：[[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/6 EBU6230_image_filtering.pdf|Image Filtering]] median filter。
 
 ### 易错提醒
 
@@ -121,7 +134,9 @@ Figure 1 的直方图大部分像素集中在较低灰度区域，并且只占�
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：histogram definition、contrast、dynamic range、bad exposure。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 3：Image Histograms#2. Histogram 的基本定义|Histogram definition]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 3：Image Histograms#5. Histogram 能封装哪些图像信息？|Brightness / contrast / dynamic range]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：histogram definition、contrast、dynamic range、bad exposure。
 
 ### 易错提醒
 
@@ -154,7 +169,9 @@ Figure 1 的直方图大部分像素集中在较低灰度区域，并且只占�
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：Colour image histograms。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 3：Image Histograms#10. Colour image histograms：颜色图像直方图|Colour image histograms]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：Colour image histograms。
 
 ### 易错提醒
 
@@ -201,7 +218,9 @@ N = H(D)
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：histogram properties；histogram is invariant to certain geometric image operations。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 3：Image Histograms#9. Histogram properties：直方图性质|Histogram properties]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：histogram properties；histogram is invariant to certain geometric image operations。
 
 ### 易错提醒
 
@@ -229,7 +248,9 @@ N = H(D)
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：Detecting bad exposure using histograms。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 3：Image Histograms#8. 用 histogram 检测曝光问题|Exposure from histograms]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：Detecting bad exposure using histograms。
 
 ### 易错提醒
 
@@ -255,7 +276,9 @@ N = H(D)
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：overexposed / underexposed。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 3：Image Histograms#8. 用 histogram 检测曝光问题|Overexposed / underexposed histograms]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf|L3 Histograms]]：overexposed / underexposed。
 
 ### 易错提醒
 
@@ -283,7 +306,9 @@ Upsampling 是指通过在已有像素之间加入新的像素来提高图像分
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]：Zooming and shrinking、Up-sampling、Nearest neighbour interpolation、Bilinear interpolation。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#29. Zooming and shrinking：放大与缩小|Zooming / shrinking]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#31. Up-sampling：上采样|Up-sampling]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#32. Nearest neighbour interpolation：最近邻插值|Nearest neighbour interpolation]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#34. Bilinear interpolation：双线性插值|Bilinear interpolation]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]：Zooming and shrinking、Up-sampling、Nearest neighbour interpolation、Bilinear interpolation。
 
 ### 易错提醒
 
@@ -313,8 +338,10 @@ Upsampling 是指通过在已有像素之间加入新的像素来提高图像分
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]：up-sampling objective。
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：inverse warping and interpolation。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#31. Up-sampling：上采样|Up-sampling]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation#13. Image warping：图像扭曲 / 重映射|Inverse warping / interpolation]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]：up-sampling objective。
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：inverse warping and interpolation。
 
 ### 易错提醒
 
@@ -340,7 +367,9 @@ Upsampling 是指通过在已有像素之间加入新的像素来提高图像分
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]：nearest-neighbour and bilinear interpolation。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#32. Nearest neighbour interpolation：最近邻插值|Nearest neighbour]]；[[课程笔记/图像与视频处理/Part 1/Part 1 - PPT 2：Image Representation#34. Bilinear interpolation：双线性插值|Bilinear interpolation]]。
+
+- [[附件/Part 1 - Introduction, Image Representation, Histograms/2 EBU6230_L2_imagerep.pdf|L2 Image Representation]]：nearest-neighbour and bilinear interpolation。
 
 ### 易错提醒
 
@@ -378,7 +407,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：algebraic operations、image subtraction、background subtraction。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation#3. Algebraic transformations：代数变换|Algebraic transformations]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation#3.2 图像相减|Image subtraction]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：algebraic operations、image subtraction、background subtraction。
 
 ### 易错提醒
 
@@ -413,7 +444,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：clipping and normalization。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation#3.4 代数操作的三个副作用|Clipping / normalization]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：clipping and normalization。
 
 ### 易错提醒
 
@@ -462,7 +495,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：Affine transformation、Shear transformation。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation#7. Affine transformation：仿射变换|Affine transformation]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation#8.3 Shear / Skew：错切|Shear / skew]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：Affine transformation、Shear transformation。
 
 ### 易错提醒
 
@@ -512,7 +547,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：Scaling。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 1：Image Transformation#8.1 Scaling：缩放|Scaling]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf|Image Transformations]]：Scaling。
 
 ### 易错提醒
 
@@ -563,7 +600,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：CMY、subtractive mixture、RGB normalized。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#14. Primary and secondary colours：原色与二次色|RGB / CMY]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#21. CMY 与 CMYK|CMY / CMYK]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：CMY、subtractive mixture、RGB normalized。
 
 ### 易错提醒
 
@@ -590,7 +629,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：additive and subtractive colours、CMY / CMYK。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#14. Primary and secondary colours：原色与二次色|Additive vs subtractive colour]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#21. CMY 与 CMYK|CMY / CMYK]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：additive and subtractive colours、CMY / CMYK。
 
 ### 易错提醒
 
@@ -623,7 +664,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：Trichromatic theory、Opponent-process theory。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#6. Trichromatic theory：三色视觉理论|Trichromatic theory]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#13. Opponent-process theory：对立过程理论|Opponent-process theory]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：Trichromatic theory、Opponent-process theory。
 
 ### 易错提醒
 
@@ -649,7 +692,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：RGB display、HVS colour perception。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#7. Retina：视网膜简化模型|Retina / cones]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#9. 彩色图像的通道表示|Colour channels]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：RGB display、HVS colour perception。
 
 ### 易错提醒
 
@@ -696,7 +741,9 @@ P5
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：PGM/PPM images、PGM format、magic numbers。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#27. PGM 图像格式|PGM format]]；[[课程笔记/图像与视频处理/Part 2/Part 2 - PPT 2：Colour Images#24. PPM 图像格式|PPM / PNM header pattern]]。
+
+- [[附件/Part 2 - Image Transformation, Colour Images and Image Filtering/5 EBU6230_colour_image.pdf|Colour Image]]：PGM/PPM images、PGM format、magic numbers。
 
 ### 易错提醒
 
@@ -730,7 +777,9 @@ Dilation 会向二值图像中 foreground objects 的边界添加像素，因此
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]：Structuring Element、Dilation、Dilation example。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 4：Morphology#3. Structuring Element：结构元素|Structuring element]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 4：Morphology#8. Dilation：膨胀|Dilation]]。
+
+- [[附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]：Structuring Element、Dilation、Dilation example。
 
 ### 易错提醒
 
@@ -769,7 +818,9 @@ PDF 标答给出的结果矩阵为：
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]：Dilation by 3x3 square structuring element。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 4：Morphology#8. Dilation：膨胀|Dilation with 3x3 SE]]。
+
+- [[附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]：Dilation by 3x3 square structuring element。
 
 ### 易错提醒
 
@@ -808,7 +859,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]：Opening、compound morphological operations。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 4：Morphology#10. Compound Operations：复合形态学操作|Compound operations]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 4：Morphology#11. Opening：开运算|Opening]]。
+
+- [[附件/Part 3 - Edges, Interest points, and Morphology/3-4_Morphology.pdf|Morphology]]：Opening、compound morphological operations。
 
 ### 易错提醒
 
@@ -896,7 +949,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-3_Interest points.pdf|Interest Points]]：Moravec operator、SSD/SAD over small windows。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 3：Interest points#6. Moravec Operator|Moravec Operator]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - Tutorial Week 3#9. Moravec 手算例题|Moravec 手算例题]]。
+
+- [[附件/Part 3 - Edges, Interest points, and Morphology/3-3_Interest points.pdf|Interest Points]]：Moravec operator、SSD/SAD over small windows。
 
 ### 易错提醒
 
@@ -939,7 +994,9 @@ Harris corner detector 的改进：
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 3 - Edges, Interest points, and Morphology/3-3_Interest points.pdf|Interest Points]]：Moravec limitations、Harris & Stephens corner detector。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 3：Interest points#13. Moravec 与 Harris 对比|Moravec vs Harris]]；[[课程笔记/图像与视频处理/Part 3/Part 3 - PPT 3：Interest points#8. Harris Corner Detector：基本思想|Harris Corner Detector]]。
+
+- [[附件/Part 3 - Edges, Interest points, and Morphology/3-3_Interest points.pdf|Interest Points]]：Moravec limitations、Harris & Stephens corner detector。
 
 ### 易错提醒
 
@@ -1023,7 +1080,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-2_Sequences_updated.pdf|Image Sequences]]：motion estimation、gradient method、Taylor series expansion。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 2：Image Sequences#10. Gradient method：从亮度一致性推导光流约束|Gradient method / optical flow]]；[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 2：Image Sequences#12. Lucas-Kanade 方法|Lucas-Kanade]]。
+
+- [[附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-2_Sequences_updated.pdf|Image Sequences]]：motion estimation、gradient method、Taylor series expansion。
 
 ### 易错提醒
 
@@ -1121,7 +1180,9 @@ $$
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-2_Sequences_updated.pdf|Image Sequences]]：block matching technique、similarity measures、MSE。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 2：Image Sequences#18. Block matching technique|Block matching]]；[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 2：Image Sequences#19. Block matching 的相似度度量|SAD / MSE]]。
+
+- [[附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-2_Sequences_updated.pdf|Image Sequences]]：block matching technique、similarity measures、MSE。
 
 ### 易错提醒
 
@@ -1157,7 +1218,9 @@ JPEG 2000 的 Region of Interest (ROI) coding 允许图像不同区域使用不�
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-1_Image Compression_updated.pdf|Image Compression / JPEG2000]]：Region of Interest (ROI)、layers。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 1：Image Compression#12. Layers：按质量组织码流|JPEG2000 layers]]；[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 1：Image Compression#13. ROI：Region of Interest coding|ROI coding]]。
+
+- [[附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-1_Image Compression_updated.pdf|Image Compression / JPEG2000]]：Region of Interest (ROI)、layers。
 
 ### 易错提醒
 
@@ -1198,7 +1261,9 @@ Dynamic ROIs 的特征：
 
 ### 课程内容关联
 
-- [[课程笔记/图像与视频处理/附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-1_Image Compression_updated.pdf|Image Compression / JPEG2000]]：Static ROIs、Dynamic ROIs。
+- 课程笔记：[[课程笔记/图像与视频处理/Part 4/Part 4 - PPT 1：Image Compression#13. ROI：Region of Interest coding|Static / dynamic ROI]]。
+
+- [[附件/Part 4 - Image Compression (JPEG2000), Image Sequences, MPEG7/4-1_Image Compression_updated.pdf|Image Compression / JPEG2000]]：Static ROIs、Dynamic ROIs。
 
 ### 易错提醒
 

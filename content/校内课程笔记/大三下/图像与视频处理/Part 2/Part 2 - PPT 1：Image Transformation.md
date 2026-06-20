@@ -1,6 +1,6 @@
 
 > [!info] 课件来源
-> 原始课件：[[课程笔记/图像与视频处理/附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf]]  
+> 原始课件：[[../附件/Part 2 - Image Transformation, Colour Images and Image Filtering/4 EBU6230_image_transformations.pdf]]  
 > 本小节整理 **Part 2 的第 1 个 PPT：Image Transformation**。当前文件后续已继续整理 Colour Images 与 Image Filtering。
 
 ---

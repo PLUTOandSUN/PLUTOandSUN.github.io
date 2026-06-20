@@ -1,5 +1,5 @@
 > [!info] 课件来源
-> 原始课件：[[课程笔记/图像与视频处理/附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf]]  
+> 原始课件：[[../附件/Part 1 - Introduction, Image Representation, Histograms/3 EBU6230_L3_histograms_updated.pdf]]  
 > 本节是 Part 1 的第 3 个正式课件，主题是 **Image Histograms 图像直方图**。核心内容包括：histogram 的定义、数学表达、直方图能反映什么、直方图的局限、颜色直方图、thresholding 阈值分割、segmentation 分割，以及 histogram equalization 直方图均衡化。
 
 ---
